@@ -44,6 +44,8 @@ This project explores various production-ready features of Spring Boot, includin
 - Enabled auditing annotations like `@Audited` and `@RevisionEntity`.
 - Stored historical changes in audit tables.
 
+  ### Steps of Doing Auditing - > [Auditing and Advanced Auditing using Hibernate Envers.pdf](https://github.com/user-attachments/files/18678411/Auditing.and.Advanced.Auditing.using.Hibernate.Envers.pdf)
+
 ### Execution Images ->
 **Auditing**
 
@@ -54,6 +56,9 @@ This project explores various production-ready features of Spring Boot, includin
 - Integrated external APIs using RestClient.
 - Demonstrated GET and POST requests to third-party services.
 - Managed response transformation and exception handling.
+
+## Steps of Doing RestClient -> [RestClient in Spring Boot.pdf](https://github.com/user-attachments/files/18678418/RestClient.in.Spring.Boot.pdf)
+
 
   ### Exceution Images ->
   #### 1.Add Employee Using RestClient
