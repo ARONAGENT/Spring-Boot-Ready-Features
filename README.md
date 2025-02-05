@@ -3,20 +3,6 @@
 ## Project Description
 This project explores various production-ready features of Spring Boot, including auditing, API integrations, logging, actuators, and API documentation. It provides step-by-step implementation details along with execution images.
 
-## Steps to Get Started
-1. Go to [start.spring.io](https://start.spring.io/).
-2. Select the necessary dependencies:
-   - Spring Web
-   - Spring Boot DevTools
-   - Spring Data JPA
-   - Hibernate Envers (for auditing)
-   - MySQL Driver (to connect database)
-   - Spring Boot Actuator
-   - OpenAPI & Swagger (for API documentation)
-3. Generate the project and extract it.
-4. Open the project in your preferred IDE (IntelliJ, Eclipse, VS Code).
-5. Start developing by following the steps below.
-
 ## Topics Covered
 
 ### 1. Setting up a Spring Boot Project with Spring Boot Web MVC and Spring Data JPA
@@ -121,7 +107,7 @@ This project explores various production-ready features of Spring Boot, includin
 ![14 Logging-storedinFile(application log)](https://github.com/user-attachments/assets/435acf67-d72c-48f8-80fb-8776a52d3f99)
 
 
-### 4.6 Spring Boot Actuator
+### 6. Spring Boot Actuator
 - Added the **Spring Boot Actuator** dependency:
   ```xml
   <dependency>
@@ -134,7 +120,7 @@ This project explores various production-ready features of Spring Boot, includin
   - `/actuator/info` - Shows application metadata.
   - `/actuator/metrics` - Provides performance and usage statistics.
 
-### 4.7 OpenAPI and Swagger to Generate API Documentation
+### 7. OpenAPI and Swagger to Generate API Documentation
 - Integrated Swagger UI to generate interactive API documentation.
 - Added OpenAPI annotations to document REST endpoints.
 - Hosted the API documentation at `/swagger-ui.html`.
@@ -194,10 +180,4 @@ This project explores various production-ready features of Spring Boot, includin
 - Java 21
 - Maven
 - IntelliJ IDEA
-
-## Contributing
-Feel free to fork this repository and contribute with pull requests to improve the project.
-
-## License
-This project is open-source and available under the MIT License.
 
