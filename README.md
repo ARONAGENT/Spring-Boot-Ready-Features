@@ -70,6 +70,14 @@ src/main/java/
 ├── advice/        # Global exception handlers and AOP aspects
 └── auth/          # Authentication and authorization components
                    # Auditable aware implementations
+
+
+# Post Entity
+```java
+  private int postId;
+  private String name;
+  private String description;
+  ```
 ```
 
 ## 📚 Implementation Details
@@ -193,8 +201,13 @@ management.endpoints.web.exposure.include=health,info,metrics
   #### 3.Update Post
   ![02 updatePost(put request)](https://github.com/user-attachments/assets/5a9a0f2b-f8ae-4718-85a9-e0ae30d7d969)
 
-  #### 4.Auditing
-  ![03 auditingRevisionChecking](https://github.com/user-attachments/assets/cc9b1109-24d9-46f0-977c-8c660ef8adf8)
+### 4. Spring Boot Basic Auditing and Advanced Auditing with Hibernate Envers
+- Implemented entity versioning and auditing using Hibernate Envers.
+- Enabled auditing annotations like `@Audited` and `@RevisionEntity`.
+- Stored historical changes in audit tables.
+
+  ### Steps of Doing Auditing - > [Auditing and Advanced Auditing using Hibernate Envers.pdf](https://github.com/user-attachments/files/18678411/Auditing.and.Advanced.Auditing.using.Hibernate.Envers.pdf)
+    ![03 auditingRevisionChecking](https://github.com/user-attachments/assets/cc9b1109-24d9-46f0-977c-8c660ef8adf8)
 
   ## Steps of Doing RestClient -> [RestClient in Spring Boot.pdf](https://github.com/user-attachments/files/18678418/RestClient.in.Spring.Boot.pdf)
 
